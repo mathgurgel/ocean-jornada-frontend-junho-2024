@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="card">
         <h2>Naruto Uzumaki</h2>
         <img src="https://static.wikia.nocookie.net/naruto/images/3/33/Naruto_Uzumaki_%28Parte_I_-_HD%29.png/revision/latest/scale-to-width/360?cb=20160316113315&path-prefix=pt-br" />
       </div>
