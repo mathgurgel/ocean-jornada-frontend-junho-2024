@@ -32,14 +32,14 @@ function App() {
     village: "Folha"
   }
 
-
+  const items = [item1, item2, item3, item4]
+  
   return (
     <>
       <div className="cards">
-        <Card item={item1}/>
-        <Card item={item2}/>
-        <Card item={item3}/>
-        <Card item={item4}/>
+        {items.map(function (element) {
+          return <Card item={element} />
+        })}
       </div>
     </>
   )
