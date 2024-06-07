@@ -1,3 +1,7 @@
+img {
+  width: 350px;
+  height: 265px;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
