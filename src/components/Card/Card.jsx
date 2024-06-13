@@ -5,11 +5,12 @@ export default function Card(props) {
         <div className="card">
             <h2>{item.name}</h2>
             <div className="tags">
-                <div>Nível: {item.level}</div>
-                <div>Time: {item.team}</div>
-                <div>Aldeia: {item.village}</div>
+                <div>Village: {item.personal.affiliation[0]}</div>
+                <div>Team: {item.personal.team ? item.personal.team[0] : 'None'}</div>
+                <div>Jutsu: {item.jutsu ? item.jutsu[0] : 'None'}</div>
+                
             </div>
-            <img src={item.image} />
+            <img src={item.images[0]} />
         </div>
     )
 }
